@@ -1,20 +1,20 @@
 # OCR Demo
-A script for small demo on how we utilize Tesseract OCR in Golang.
+A script for small demo on how we utilize Tesseract OCR in Golang.  
 This script was used for small demo on how OCR works in Golang, during [April 2020 Golang Singapore Meetup](https://engineers.sg/video/optical-character-recognition-ocr-implementation-with-golang-gosg--4031)
 
 ------
 
 ## Prerequistes
-- [Tesseract OCR](https://tesseract-ocr.github.io/tessdoc/Home.html) (4.1.1)
+- [Tesseract OCR](https://tesseract-ocr.github.io/tessdoc/Home.html) (4.1.1)  
 **Recommended** to use the exact version, since different version may causing different result and accuracy.
 - [Golang](https://golang.org/) (1.13.4 or Above)
 
-## Supporting Libraries
+## Supporting Library
 - [Gosseract](https://github.com/otiai10/gosseract)
 
 ## How to Build
-1. Make sure you already successfully installed Tesseract OCR and functioning properly via Command Prompt
-You can test it with `tesseract -v`
+1. Make sure you already successfully installed Tesseract OCR and functioning properly via Command Prompt.  
+You can test it with `tesseract -v`  
 And it will output something like this
 ```
 tesseract 4.1.1
